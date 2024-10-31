@@ -1,0 +1,222 @@
+.appsumo_success_message {
+        background: #d4fbec;
+        border: #9ce8ca solid 1px;
+        padding: 5px 10px;
+        color: #35a076;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+}
+
+.appsumo-container{
+        max-width: 1920px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Poppins;
+}
+.appsumo-container img{
+        max-width: 100%;
+}
+.appsumo-container p{
+        margin:0;
+}
+.appsumo-container .appsumo-logo {
+        margin-bottom: 60px;
+        display: block;
+        margin-top: 45px;
+}
+.appsumo-container .appsumo-logo img {
+        max-width: 380px;
+}
+.appsumo-container .appsumo-left-form {
+        background-color: #F9F6FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+.appsumo-container .appsumo-w-50{
+        width: 50%;
+}
+.appsumo-container .appsumo-right-graph {
+        display: flex;
+        align-items: center;
+}
+.appsumo-container-desc{
+        display: flex;
+}
+.appsumo-right-graph .appsumo-right-graph-desc{
+        padding: 30px;
+}
+.appsumo-heading {
+        color: #674188;
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Poppins;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0;
+}
+.appsumo-sub-heading{
+        color: #06283D;
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0.36px;
+        margin: 0;
+}
+.appsumo-submit {
+        background: linear-gradient(255deg, #9B3490 -0.87%, #674188 97.63%), #AA2EE6 !important;
+        box-shadow: 0px 1px 56px 0px rgba(170, 46, 230, 0.20);
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        cursor: pointer;
+        border: 0px solid transparent;
+        width: 100%;
+        padding: 22px;
+        transition: 0.5s;
+        margin-bottom: 10px;
+        margin-top: 15px;
+}
+.appsumo-submit:hover{
+        background: linear-gradient(255deg, #734888 -0.87%, #6d339f 97.63%), #9B3490 !important;
+}
+.appsumo-log-condition a{
+        color: #1890FF;
+        leading-trim: both;
+        text-edge: cap;
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0.3px;
+        text-decoration-line: underline;
+}
+.appsumo-desc label {
+        color: #333;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 8px;
+        display: block;
+}
+.appsumo-desc {
+        padding: 15px;
+        max-width: 545px;
+}
+.appsumo-desc p{
+        position: relative;
+}
+.appsumo-container input:not([type="submit"]) {
+        border: 1px solid rgba(117, 86, 161, 0.13);
+        background: #FFF;
+        width: 100%;
+        font-size: 18px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+}
+.appsumo-container input:not([type="submit"]) {
+        border: 1px solid rgba(117, 86, 161, 0.13);
+        background: #FFF;
+        width: 100%;
+        font-size: 18px;
+        padding: 15px 10px;
+        margin-bottom: 20px;
+}
+.appsumo-desc form {
+        margin-top: 60px;
+}
+p.appsumo-log-condition-2 {
+        margin-top: 80px;
+}
+.appsumo-pshow-hide {
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='17' viewBox='0 0 24 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.9048 7.75234C23.8659 7.67452 22.9316 5.82744 21.0768 3.9726C15.9908 -1.11357 8.94118 -1.12044 3.84814 3.9726C1.9933 5.82744 1.05902 7.67452 1.02011 7.75234C0.89336 8.00602 0.89336 8.30477 1.02011 8.55846C1.05902 8.63627 1.9933 10.4834 3.84814 12.3382C8.93431 17.4244 15.9838 17.4312 21.0768 12.3382C22.9316 10.4834 23.8659 8.63627 23.9048 8.55846C24.0316 8.30477 24.0316 8.00602 23.9048 7.75234ZM19.8021 11.0634C15.501 15.3644 9.61544 15.5215 5.16162 11.102C3.98721 9.93673 3.21419 8.75457 2.8584 8.15443C3.20803 7.56326 3.96345 6.40681 5.12289 5.24736C9.41422 0.956036 15.3007 0.780517 19.7635 5.20881C20.9381 6.37424 21.7111 7.55675 22.0665 8.15619C21.7169 8.74735 20.9615 9.90398 19.8021 11.0634ZM12.4625 3.70871C10.0105 3.70871 8.0157 5.7035 8.0157 8.15531C8.0157 10.6073 10.0105 12.6021 12.4625 12.6021C14.9145 12.6021 16.9092 10.6073 16.9092 8.15531C16.9092 5.7035 14.9145 3.70871 12.4625 3.70871ZM12.4625 10.7994C11.0046 10.7994 9.81842 9.61315 9.81842 8.15531C9.81842 6.69746 11.0046 5.51143 12.4625 5.51143C13.9203 5.51143 15.1065 6.69746 15.1065 8.15531C15.1065 9.61333 13.9203 10.7994 12.4625 10.7994Z' fill='%23D7D6D6'/%3E%3C/svg%3E");
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 45px;
+        right: 30px;
+        cursor: pointer;
+}
+.appsumo-double-form{
+        display: flex;
+        justify-content: space-between;
+}
+.appsumo-double-form p{
+        width: 48%;
+}
+.appsumo-form-error {
+        padding: 0;
+        margin: 15px 0;
+        display: block;
+}
+.appsumo-form-error li {
+        list-style: none;
+        border: 1px solid rgba(229, 38, 38, 0.06);
+        background: rgba(229, 38, 38, 0.03);
+        background-image: url("data:image/svg+xml,%3Csvg width='16' height='17' viewBox='0 0 16 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.99992 1.48871C11.6819 1.48871 14.6666 4.47404 14.6666 8.15537C14.6666 11.8367 11.6819 14.822 7.99992 14.822C4.31792 14.822 1.33325 11.8367 1.33325 8.15537C1.33325 4.47404 4.31792 1.48871 7.99992 1.48871ZM8.00125 10.158C7.91206 10.1552 7.82322 10.1703 7.73999 10.2025C7.65676 10.2347 7.58085 10.2833 7.51676 10.3454C7.45267 10.4075 7.40171 10.4818 7.36691 10.564C7.33212 10.6461 7.31418 10.7345 7.31418 10.8237C7.31418 10.9129 7.33212 11.0013 7.36691 11.0834C7.40171 11.1656 7.45267 11.2399 7.51676 11.302C7.58085 11.3641 7.65676 11.4127 7.73999 11.4449C7.82322 11.4771 7.91206 11.4922 8.00125 11.4894C8.17415 11.4839 8.33814 11.4114 8.45851 11.2871C8.57888 11.1629 8.64618 10.9967 8.64618 10.8237C8.64618 10.6507 8.57888 10.4845 8.45851 10.3603C8.33814 10.236 8.17415 10.1635 8.00125 10.158ZM7.99992 4.82204C7.83653 4.82208 7.67884 4.88212 7.5568 4.99077C7.43476 5.09941 7.35687 5.24909 7.33792 5.41137L7.33325 5.48871L7.33458 8.82271L7.33925 8.90071C7.35852 9.06274 7.43656 9.21208 7.55856 9.32043C7.68057 9.42879 7.83808 9.48863 8.00125 9.48863C8.16443 9.48863 8.32194 9.42879 8.44394 9.32043C8.56595 9.21208 8.64398 9.06274 8.66325 8.90071L8.66792 8.82271L8.66658 5.48871L8.66192 5.41071C8.64281 5.24854 8.56486 5.09902 8.44283 4.99052C8.32081 4.88201 8.16321 4.82206 7.99992 4.82204Z' fill='%23E52626'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: 5px 10px;
+        background-size: 16px;
+        margin-bottom: 5px;
+        padding: 8px 30px;
+}
+.appsumo-form-error li p{
+        color: #E52626;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 134%;
+}
+p.appsumo-code-area{
+        margin-top: 20px;
+}
+
+
+/*Responsive CSS*/
+@media (max-width:991px){
+        .appsumo-container .appsumo-container-desc {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+        .appsumo-container .appsumo-w-50, .appsumo-double-form p {
+                width: 100%;
+        }
+        .appsumo-container .appsumo-logo {
+                margin-bottom: 30px;
+        }
+        .appsumo-container .appsumo-heading {
+                font-size: 30px;
+        }
+        .appsumo-container .appsumo-logo img {
+                max-width: 280px;
+        }
+        .appsumo-container form {
+                margin-top: 30px;
+        }
+        .appsumo-double-form {
+                flex-direction: column;
+        }
+        .appsumo-log-condition-2 {
+                margin-top: 30px;
+        }
+}
